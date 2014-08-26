@@ -1,0 +1,12 @@
+﻿
+<list>
+  <m label="打开的目录" opened="1">
+    <m type="" src="music/test1.flv" lrc="" label="test1" />
+	<m type="" src="music/test2.flv" lrc="" label="test2" />
+	<m type="" src="music/avi.avi" lrc="" label="avi" />
+	<m type="" src="music/mp4.mp4" lrc="" label="mp4" />
+	<m type="" src="music/3gp.3gp" lrc="" label="3gp" />
+	<m type="" src="music/1.flv" lrc="" label="1" />
+	<m type="" src="music/song.mp4" lrc="" label="song" />
+  </m>
+</list>
