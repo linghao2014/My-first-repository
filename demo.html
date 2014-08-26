@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+</style>
+<script type="text/javascript">
+/*var result=0.3-0.2;+
+alert(res0.+ult);
+
+var A;
+alert(typeof A);
+
+var s="hello world!";
+var word=s.substring(s.indexOf("")+1,s.length);
+alert(word);
+
+var s="test";
+s.len=4;
+var t=s.len;
+alert(typeof t);\
+
+var i=2;
+++i;
+alert(i);
+
+var i=2;
+alert(i);
+i=4; debugger;
+alert(i);
+
+var o={};
+o.x=1;
+var p.prototype=o;
+alert(p.x);
+
+var o={x:1,y:{z:[false,null,""]}};
+var s=JSON.stringify(o);
+alert(s);
+var s2=s.split(',');
+alert(s2);
+*/
+
+/*
+键值标准式
+var arr=[{name:"张三",pass:111},{name:"李四",pass:222},{name:"王五",pass:333}];
+alert(arr[0].name);
+*/
+
+/*
+键值特殊式（注意取值的方法）
+var arr=[{"张三":111},{"李四":222},{"王五":333}];
+var result=[];
+for(var i=0;i<arr.length;i++)
+{
+	var obj=arr[i];
+	取键
+	for(var key in obj)
+	{
+		result.push(key);
+	}
+		
+	取值
+	for(var key in obj)
+	{
+		result.push(obj[key]);	
+	}
+}
+alert(result[0]);
+*/
+
+/*
+var arr=[1,2,3];
+var oDate=new Date();
+console.log(oDate.toLocaleString());   /*"2014/7/26 下午5:14:50"
+console.log(arr.toString());
+*/
+/*
+function css(obj,name,value)
+{
+	if(arguments.length==2)
+	{
+		return obj.style[name];
+	}
+	else if(arguments.length==3)
+	{
+		return obj.style[name]=value;
+	}
+}
+window.onload=function(){
+	var oDiv=document.getElementById('div1');
+	console.log(css(oDiv,'width'));
+}
+*/
+/*
+var oDate=new Date();
+alert(oDate.getFullYear()+':'+(oDate.getMonth()+1)+':'+oDate.getDate()+'星期'+oDate.getDay());
+*/
+
+/*
+var re=//w+@[a-z0-9]+\.[a-z]+/i;
+str="1261283072@.qq.com";
+if(re.test(str))
+{
+	console.log('yes');
+}
+*/
+if (window.ActiveXObject) {
+  var ua = navigator.userAgent.toLowerCase();
+  var ie=ua.match(/msie ([\d.]+)/)[1]
+if(ie==6.0){
+alert("您的浏览器版本过低，在本系统中不能达到良好的视觉效果，建议你升级到ie7以上!谢谢支持！");
+window.close();
+}
+}
+</script>
+</head>
+<body>
+	<div id="div1" style="width:200px;height:300px;background:#000;"></div>
+</body>
+</html>
